@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box; /* what does this do */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 0; /* does this get rid of the tab of footer */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 91px;
+    padding: 30px 25px;
+}
+
+nav > .nav--logo_text, nav > .nav--title {
+    margin: 0;
+}
+
+nav > .nav--logo_text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #00D8FF;
+    margin-right: auto;
+}
+
+nav > .nav--title {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+nav > img {
+    height: 30px;
+    margin-right: 8px;
+}
