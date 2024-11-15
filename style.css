@@ -6,6 +6,11 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     margin: 0; /* does this get rid of the tab of footer */
+    background-color: #282D35;
+    background-image: url("images/react-icon-large.png");
+    background-repeat: no-repeat;
+    background-position: right 100%;
+    background-size: 30%;
 }
 
 nav {
@@ -35,4 +40,37 @@ nav > .nav--title {
 nav > img {
     height: 30px;
     margin-right: 8px;
+}
+
+.main {
+    padding: 57px 27px;
+
+}
+
+.main--title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 39px;
+    margin: 0px;
+    letter-spacing: -0.05em;
+
+}
+
+.main--list {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 24px;
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--list > li {
+    line-height: 19px;
+    padding-block: 20px;
+}
+
+.main--list > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
