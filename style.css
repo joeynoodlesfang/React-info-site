@@ -9,8 +9,8 @@ body {
     background-color: #282D35;
     background-image: url("images/react-icon-large.png");
     background-repeat: no-repeat;
-    background-position: right 100%;
-    background-size: 30%;
+    background-position: right 75%;
+    /* background-size: 30%; */
 }
 
 nav {
